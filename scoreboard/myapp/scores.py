@@ -75,4 +75,5 @@ class PostScores(webapp.RequestHandler):
             player.lastUpdate = datetime.datetime.now()
             player.udid = self.request.get('udid')
             player.score = int(self.request.get('score'))
+            player.username = self.request.get('username')
             player.put()

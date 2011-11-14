@@ -11,7 +11,7 @@
 		37F8D7AF1471956700A54DA3 /* index.yaml */ = {isa = PBXFileReference; lastKnownFileType = text; name = index.yaml; path = scoreboard/index.yaml; sourceTree = "<group>"; };
 		37F8D7B01471956700A54DA3 /* main.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = main.py; path = scoreboard/main.py; sourceTree = "<group>"; };
 		37F8D7B11471956700A54DA3 /* myapp */ = {isa = PBXFileReference; lastKnownFileType = folder; name = myapp; path = scoreboard/myapp; sourceTree = "<group>"; };
-		37F8D7B61471959500A54DA3 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		37F8D7B61471959500A54DA3 /* README.markdown */ = {isa = PBXFileReference; explicitFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
