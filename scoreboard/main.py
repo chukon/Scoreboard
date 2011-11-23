@@ -27,8 +27,10 @@ class MainHandler(webapp.RequestHandler):
 
 def main():
     application = webapp.WSGIApplication([('/', MainHandler),
-                                         ('/postscores/', PostScores),
-                                         ('/getscores/', GetScores)],
+                                          ('/post-player/', PostPlayer),
+                                          ('/post-hole-score/', PostHoleScore),
+                                          ('/get-players/', GetPlayers),
+                                          ('/get-scores-for-player/',GetScoresForPlayer)],
                                          debug=True)
     util.run_wsgi_app(application)
 
